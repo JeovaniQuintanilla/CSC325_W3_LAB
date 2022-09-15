@@ -7,6 +7,9 @@ public class Driver {
     public static void main(String[] args) {
         
         System.out.println("Hello Jeovani this is the world ");
+        Student std = new Student();
+        
+        System.out.println("The student is "  + std.toString());
         
     }
     
